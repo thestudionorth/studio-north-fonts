@@ -1,0 +1,18 @@
+/* Studio North custom font (Bold)
+   Place this CSS file in the same folder as your font files.
+   Expected files in this directory:
+     - StudioNorth-Bold.woff2
+     - StudioNorth-Bold.woff  (optional)
+*/
+@font-face {
+  font-family: 'Studio North';
+  src: url('StudioNorth-Bold.woff2') format('woff2'),
+       url('StudioNorth-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Example usage */
+:root { --studio-north-font: 'Studio North', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+h1, h2, h3, .sn-heading { font-family: var(--studio-north-font); }
