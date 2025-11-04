@@ -1,0 +1,9 @@
+/* PP Neue Montreal — Regular (450) */
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: url('PPNeueMontreal-Regular.woff2') format('woff2'),
+       url('PPNeueMontreal-Regular.woff') format('woff');
+  font-weight: 450;
+  font-style: normal;
+  font-display: swap;
+}
